@@ -1,0 +1,147 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #0f0f0f;
+    overflow-x: hidden;
+}
+h1{
+    text-align: center;
+    color: #f2f2f2;
+    text-shadow: 0px 0px 1px black;
+
+}
+img{
+    width: 100%;
+}
+.list-item{
+    background-color: #d5d5d5;
+    margin: 15px;
+    padding: 20px;
+
+}
+.list-item:hover{
+    cursor: pointer;
+}
+.active{
+    background-color: aqua;
+    color: rgb(110, 110, 110);
+}
+.car-name-list{
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+}
+.car-about{
+    display: flex;
+    margin: 15px;
+}
+.car-img{
+    max-width:50%;
+    margin-right: 30px;
+}
+.car-info div{
+    margin: 10px 0;
+}
+
+
+.header{
+    height: 90vh;
+    background-image: url(yamaha.jpg);
+    background-size: cover;
+    background-position: 50% 90%;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    color: #3e569b;
+    font-size: 3em;
+}
+.how-sell-1{
+    background-color: #1E1E1E;
+    box-shadow: 0px 0px 35px #000000;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    height: 100%;
+}
+.red{
+    color: #E10600;
+}
+.bold{
+    color: #FFFFFF;
+    font-weight: 900;
+    margin: 3rem 0;
+}
+.navbar{
+    background-color: #0f0f0f;
+    color: #F2F2F2;
+}
+.nav-link{
+    color: #525252;
+}
+.navbar-brand{
+    color: #525252;
+}
+.motore-menu{
+    color: #5a5a5a;
+}
+.honda-img{
+    height: 510px;
+    width: 510px;
+}
+.honda-text{
+    color: #5a5a5a;
+}
+.orange{
+    color: #FF6B00;
+}
+.yamaha-img{
+    height: 510px;
+    width: 510px;
+}
+.yamaha-text{
+    color: #5a5a5a;
+}
+.kavasaki-text{
+    color: #5a5a5a;
+}
+.kavasaki-img{
+    height: 500px;
+    width: 510px;
+}
+.suzuki-img{
+    height: 500px;
+    width: 590px;
+}
+.suzuki-text{
+    color: #5a5a5a;
+}
+.bmw-img{
+    height: 570px;
+    width: 510px;
+}
+.bmw-text{
+    color: #5a5a5a;
+}
+.harley-davidson-text{
+    color: #5a5a5a;
+}
+.ducati-text{
+    color: #5a5a5a;
+}
+.socio-link{
+    color: #d5d5d5;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 1.1em;
+}
+.socio-link:hover{
+    color: #E10600;
+}
+footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    background-color: #555252;
+    color: #000000;
+}
